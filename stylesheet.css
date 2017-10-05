@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Slabo+27px');
+
+body {
+background-image: url("http://wallportal.com/uploads/posts/free-winter-wonderland-wallpaper/free_winter_wonderland_wallpaper_006.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Slabo;
+color: white;
+background-attachment: fixed;
+}
+
+h1 {
+font-size: 56px;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+white-space: nowrap;
+font-family: "Amatic SC";
+letter-spacing: 12px;
+}
+
+li.navbutton {
+display: inline;
+text-align: center;
+}
+
+li a {
+color: white;
+font-size: 18px;
+text-decoration: none;
+padding: 20px;
+}
+
+ul.navigation {
+background-color: #333;
+padding: 5px;
+opacity: 0.85;
+width: 410px;
+white-space: nowrap;
+}
+
+li a:hover {
+opacity: 0.30;
+}
+
+ul {
+margin: 30px auto;
+padding: 0 20px;
+text-align: center;
+}
+
+.list {
+ text-align: left;
+}
+
+ul.list {
+ padding-right: 135px;
+ padding-bottom: 20px;
+}
+
+p {
+font-size: 16px;
+text-align: center;
+padding-top: 30px;
+border-top: 1px white solid;
+}
+
+.link {
+text-decoration: none;
+color: white;
+}
+
+.overlay {
+height: auto;
+width: 400px;
+margin: auto;
+padding: 10px;
+position: static;
+top: 175px;
+right: 0;
+bottom: 0px;
+left: 0;
+background-color: rgba(100, 100, 100, .85);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.overlay p:last-child {
+border: none;
+}
+
+.contact-forms input {
+    border: solid 1px #333;
+    display: block;
+    margin: auto auto 10px auto;
+    padding: 10px 10px;
+    width: 300px;
+    font-family: Slabo;
+}
+
+input.message {
+   height: 100px;
+   width: 85%;
+}
+
+input.submit-button {
+    width: 50px;
+    height: 6px;
+    text-align: center;
+    font-family: Slabo;
+}
+
+.first-image {
+
+margin: 10px 0 20px 0;
+border-radius: 5px;
+box-shadow: 0 0 2em white;
+width: 85%;
+}
+
+.second-image {
+filter: invert(100%);
+margin: 0 0 20px 0;
+border-radius: 5px;
+box-shadow: 0 0 2em white;
+width: 85%;
+}
+
+.third-image {
+filter: sepia(100%);
+margin: 0 0 20px 0;
+border-radius: 5px;
+box-shadow: 0 0 2em white;
+width: 85%;
+}
+
+@media only screen and (max-width: 500px) {
+.overlay {
+  width: 85%;
+}
+ul.navigation {
+  width: 88%;
+}
+h1 {
+  font-size: 2rem;
+}
+.contact-forms input {
+  width: 90%;
+}
+.submit-button {
+  width: 15%;
+}
+}
