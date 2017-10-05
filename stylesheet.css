@@ -39,8 +39,15 @@ width: 410px;
 white-space: nowrap;
 }
 
-li a:hover {
-opacity: 0.30;
+a:link {
+color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
 }
 
 ul {
@@ -63,6 +70,7 @@ font-size: 16px;
 text-align: center;
 padding-top: 30px;
 border-top: 1px white solid;
+width: 100%;
 }
 
 .link {
@@ -92,16 +100,14 @@ border: none;
 
 .contact-forms input {
     border: solid 1px #333;
-    display: block;
     margin: auto auto 10px auto;
     padding: 10px 10px;
-    width: 300px;
     font-family: Slabo;
+    width: 95%;
 }
 
 input.message {
-   height: 100px;
-   width: 85%;
+   height: 50px;
 }
 
 input.submit-button {
@@ -109,6 +115,7 @@ input.submit-button {
     height: 6px;
     text-align: center;
     font-family: Slabo;
+    justify-content: center;
 }
 
 .first-image {
